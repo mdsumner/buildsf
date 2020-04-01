@@ -128,6 +128,11 @@ construct_matcher <- function(x) {
 #'
 #'
 to_sf <- function(x, debug = TRUE) {
+  UseMethod("to_sf")
+}
+#' @name to_sf
+#' @export
+to_sf.default <- function(x, debug = TRUE) {
   gtype <- gtype_matcher(names(x))
   if (debug) {
     print(gtype)

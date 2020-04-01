@@ -9,9 +9,12 @@
 \alias{sf_mpt}
 \alias{sf_pt}
 \alias{sf_to_df}
+\alias{to_sf.default}
 \title{Construct sf object}
 \usage{
 to_sf(x, debug = TRUE)
+
+\method{to_sf}{default}(x, debug = TRUE)
 }
 \arguments{
 \item{x}{data frame}
