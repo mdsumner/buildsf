@@ -1,0 +1,21 @@
+Package: sfbuild
+Title: Builds Sf With Sfheaders, Probably Temporarily 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Michael",
+           family = "Sumner",
+           role = c("aut", "cre"),
+           email = "mdsumner@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports: 
+    sfheaders (>= 0.2.1003),
+    silicate
+Suggests: 
+    sf,
+    dplyr
+Remotes: dcooley/sfheaders
